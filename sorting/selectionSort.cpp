@@ -36,6 +36,7 @@ int main(){
     // 1. Best Case : O(n^2)
     // 2. Average Case : O(n^2)
     // 3. Worst Case : O(n^2)
+    // 4. Selection Sort is Unstable Sorting Technique.
     // If the cost of swapping is high then selection sort is used.
     // Maximum number of swaps : n-1
 }
