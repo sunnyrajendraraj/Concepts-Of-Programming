@@ -1,4 +1,4 @@
-// Find the smallest missing element in the sorted array.
+// Find the smallest missing element in the sorted array of distinct Elements.
 
 #include<bits/stdc++.h>
 using namespace std;
