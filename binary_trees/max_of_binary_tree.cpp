@@ -24,7 +24,7 @@ void displayTree(TreeNode* root){
 
 // function to compute sum of nodes of binary tree using recursion
 int maxOftree(TreeNode* root){
-    if(root==NULL) return 0;
+    if(root==NULL) return INT_MIN;
     int lrmax=max(maxOftree(root->left),maxOftree(root->right));
     return max(root->val,lrmax);
 }
@@ -32,8 +32,8 @@ int maxOftree(TreeNode* root){
 int main(){
 
     TreeNode* a = new TreeNode(1); // Root Node
-    TreeNode* b = new TreeNode(299);
-    TreeNode* c = new TreeNode(3);
+    TreeNode* b = new TreeNode(-299);
+    TreeNode* c = new TreeNode(-3);
     TreeNode* d = new TreeNode(34);
     TreeNode* e = new TreeNode(5);
     TreeNode* f = new TreeNode(6);
